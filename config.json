@@ -1,0 +1,109 @@
+{
+    "formatVersion": 1,
+    "menu": {
+        "Config.GeneralTab": {
+            "label": "Config.General",
+            "formFields": {
+                "mode": {
+                    "type": "selectBox",
+                    "required": false,
+                    "label": "Config.mode",
+                    "options": {
+                        "defaultValue": "0",
+                        "selectBoxValues": [
+                            {
+                                "value": "0",
+                                "caption": "Config.Sandbox"
+                            },
+                            {
+                                "value": "1",
+                                "caption": "Config.Production"
+                            }
+                        ]
+                    }
+                },
+                "username": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.username",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "password": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.password",
+                    "options": {
+                        "defaultValue": "",
+                        "isPassword": true,
+                        "isIBAN": false
+                    }
+                }
+            }
+        },
+        "Config.SenderTab": {
+            "label": "Config.Sender",
+            "formFields": {
+                "senderName": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.senderName",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "senderStreet": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.senderStreet",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "senderNo": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.senderNo",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "senderPostalCode": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.senderPostalCode",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "senderTown": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.senderTown",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "senderCountry": {
+                    "type": "selectBox",
+                    "required": false,
+                    "label": "Config.senderCountry",
+                    "options": {
+                        "defaultValue": "0",
+                        "selectBoxValues": [
+                            {
+                                "value": "0",
+                                "caption": "Config.senderCountryPossibleValue0"
+                            },
+                            {
+                                "value": "1",
+                                "caption": "Config.senderCountryPossibleValue1"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
